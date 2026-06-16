@@ -1,0 +1,4 @@
+**/obj
+**/bin
+**/.vs
+OnnxExperimentation.Maui/Platforms/Android/Assets/Models/gemma-3-1b/model_q4f16.onnx_data

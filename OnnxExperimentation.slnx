@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="OnnxExperimentation.Console/OnnxExperimentation.Console.csproj" />
+  <Project Path="OnnxExperimentation.Inference/OnnxExperimentation.Inference.csproj" />
+  <Project Path="OnnxExperimentation.Maui/OnnxExperimentation.Maui.csproj" Id="254ef576-63b1-4bee-88f3-2bb1d8a9a8cb" />
+</Solution>

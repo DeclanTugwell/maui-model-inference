@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnnxExperimentation.Maui.MainPage">
+
+    <ScrollView>
+        <Grid Padding="30,0" RowDefinitions="5*,Auto" ColumnDefinitions="*">
+
+            <!-- Response -->
+            <Label 
+                Grid.Row="0"
+                Text="{Binding Response}"
+                LineBreakMode="WordWrap" />
+
+            <!-- Input + Button -->
+            <VerticalStackLayout Grid.Row="1" Spacing="10">
+
+                <Entry 
+                    Text="{Binding Prompt}"
+                    Placeholder="Enter your prompt..." />
+
+                <Button 
+                    Text="Send"
+                    Command="{Binding SendCommand}" />
+
+            </VerticalStackLayout>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
